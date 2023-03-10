@@ -12,3 +12,11 @@
 </div>
 
 <%= link_to "New article", new_article_path %>
+
+<!-- app/views/articles/index.html.erb -->
+<%= cl_image_tag("hcgvba3f6c6sxb7fmgfd",
+      width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("h1kyof9ei3tobbvgume1",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
